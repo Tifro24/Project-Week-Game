@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: red;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+#grid {
+    background-color: aquamarine;
+    /* input appropriate bg image*/
+    background-image: url(/Media/images/paper\ mario\ background.jpg);
+    border: 10px solid white;
+    border-radius: 10px;
+}
