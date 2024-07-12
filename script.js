@@ -64,14 +64,14 @@ bgSound.play()
 
 
 charRightImg = new Image();
-charRightImg.src = "/Media/images/mariorightpng.png"
+charRightImg.src = "./Media/images/mariorightpng.png"
 char.img = charRightImg
 charRightImg.onload = function(){
     context.drawImage(charRightImg, char.x, char.y, char.width, char.height)
 }
 
 charLeftImg = new Image();
-charLeftImg.src = "/Media/images/marioleftpng.png";
+charLeftImg.src = "./Media/images/marioleftpng.png";
 
 
 
@@ -79,7 +79,7 @@ charLeftImg.src = "/Media/images/marioleftpng.png";
 
 
 platformImg = new Image();
-platformImg.src = "/Media/images/8bitplatform.png"
+platformImg.src = "./Media/images/8bitplatform.png"
 
 placePlatforms();
 requestAnimationFrame(update);
