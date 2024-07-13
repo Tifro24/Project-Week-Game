@@ -10,7 +10,7 @@ body {
 #grid {
     background-color: aquamarine;
     /* input appropriate bg image*/
-    background-image: url(../Media/images/paper\ mario\ background.jpg);
+    background-image: url(Media/images/paper\ mario\ background.jpg);
     border: 10px solid white;
     border-radius: 10px;
 }
