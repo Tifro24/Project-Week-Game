@@ -1,8 +1,8 @@
 // grid
 
 let grid
-let gridWidth = 1280
-let gridHeight = 720
+let gridWidth = 1000
+let gridHeight = 563
 let context
 
 // character
