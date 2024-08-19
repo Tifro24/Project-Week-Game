@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: red;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+}
+
+.bg{
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+.title{
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    
+
+}
+
+a{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    font-family: 'Press Start 2P';
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    color: red;
+    background-color: blue;
+    font-size: 30px;
+}
+
+a:hover{
+    color: blue;
+    background-color: red;
+    border: 2px solid red;
+}
+
+.comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
